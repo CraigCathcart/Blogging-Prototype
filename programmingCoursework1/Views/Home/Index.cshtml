@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-1.12.0.js"></script>
+    <script src="Scripts/myScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="content/site.css">
+    <title></title>
+</head>
+<body>
+
+    <div id="browser">
+        <div id="adleft" class="advert">adleft</div>
+        <div id="adright" class="advert">adright</div>
+        <div id="parent">
+            <div id="logo">
+                <div id="logocontainer">
+                <img src="images/logo.svg">
+              </div>
+            </div>
+            <div id="login">
+               <div id="logincontainer">
+                <input type="text" name="user" id="user" size="20" class="user" placeholder="Login" maxlength="20" />
+                <input type="password" name="pwd" id="pwd" size="20" class="pwd" placeholder="Password" maxlength="60" /><br />
+                <input type="submit" name="login" value="Login" class="login" /><input type="submit" name="Register" value="Register" class="register" />
+               </div>
+            </div>
+
+
+            <div id="menu"></div>
+
+            <div id="categories">
+               
+                <ul>
+                    <li><a title="Nature" class="list" href="#"><b>Nature</b></a></li>
+                    <li><a title="food" class="list" href="#"><b>Food</b></a></li>
+                    <li><a title="lifestyle" class="list" href="#"><b>Lifestyle</b></a></li>
+                    <li><a title="Health" class="list" href="#"><b>Health</b></a></li>
+                    <li><a title="Tech" class="list" href="#"><b>Tech</b></a></li>
+                </ul>
+            </div>
+
+            <div id="article">
+                
+                <h1 id="blogTitle"></h1>
+                <div id="blogText"></div>
+                <img src="#" id="blogImage"/>
+
+                <form action="form">
+                    <input type="button" id="previous" class="navButton "  value="prev">
+                    <input type="button" id="next" class="navButton" value="next">
+                </form>
+            </div>
+
+            <div id="right-boxes">
+                <div class="box">
+                    <h3>Similar articles</h3>
+                    <ul id="similarArticles">
+                        <li></li>
+                        <li></li>
+                       <li></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Popular articles</h3>
+                    <ul>
+                        <li><a title="Endangered Lions" class="list" href="#">Endangered Lions</a></li>
+                        <li><a title="Food monthly" class="list" href="#">Food Monthly</a></li>
+                        <li><a title="New Laptops" class="list" href="#">New Laptops</a></li>
+                    </ul>
+                 </div>
+                <div class="box">
+                    <h3>About this blog</h3>
+                    <p>This blog is formed of user submitted content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

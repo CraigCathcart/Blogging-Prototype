@@ -1,0 +1,143 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700,700italic);
+
+body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color:#555; margin:0; padding:0; }
+
+/* Text */
+
+h1 {margin:0 0 1em 0; font-size: 2.8em; font-weight: 700;  }
+h2 {margin:0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em; }
+h3 {margin:0; font-size: 1em; font-weight: 700; padding: .2em; }
+
+/* got this from stackoverflow:  http://stackoverflow.com/questions/7291873/disable-color-change-of-anchor-tag-when-visited */
+a { /* unvisited link */
+    color: #e65c00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:visited {color:#e65c00;}  /* visited link */
+a:hover {color: #ff751a;}  /* mouse over link */
+a:active {color:#e65c00;}  /* selected link */
+
+p {margin: 0 0 1em 0;}
+
+#menu {transition: background-color .5s ease;}
+#menu:hover { background-color: rgb(217, 217, 217); cursor:pointer; }
+
+#browser { max-width: 1324px; margin: 0 auto; position: relative; height:465px; width: 1324px; margin: 15px auto; background-color: gray; }
+
+#adleft {  }
+
+#adright { left: 1174px;   }
+.advert { background-color: purple; position: absolute; top: 0; width: 150px; height: 465px;  }
+#parent { max-width: 1024px; margin: 0 auto; height: 465px; background-color: #0d0d0d;  position: relative; } 
+
+#logo {  display: block; width: 200px; height: 100px; background-color: none; }
+#logocontainer { padding: 15px 15px 15px 15px; }
+
+#login { position: absolute; top: 0;  display: block; width: 200px; height: 100px; left: 825px; background-color: none;  }
+#logincontainer { padding: 15px 15px 0px 0px; }
+
+
+#menu { display: block; width: 1024px; height: 50px; }
+
+
+#categories { position: absolute; left: 0px; height: 315px; width: 200px; background-color: #f2f2f2; padding: 20px; box-sizing: border-box; }
+ul { padding:0 0 0 10px; margin: 6px 0px; }
+li { list-style-type: none;  }
+#categories li { margin-bottom: 10px; font-size: 1.6em; border: 1px solid #ff944d; text-align: center; }
+
+
+
+
+#article { position: absolute; top: 150px; left: 200px; width: 624px; height: 315px; background-color: #ffffff; }
+#blogTitle {position: absolute; top: 0px; width: 250px; height: 30px; padding: 10px; margin: 10px; }
+#blogText { position: absolute; top: 60px; width: 250px; height: 110px; margin: 10px; padding: 10px; }
+#blogImage { position: absolute; top: 60px; left: 300px;  width: 250px; padding: 10px; }
+
+
+
+#previous {left: 5px; } 
+#next {left: 560px;}
+
+.navButton{
+     position: absolute;
+     bottom: 0; 
+     border: 1px solid #0d0d0d;
+     background-color: #ff944d;
+     width: 7%;
+     margin: 2px 2px 2px 8px;
+     color: white;
+     cursor: pointer;
+}
+
+.inactiveButton{
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#right-boxes{
+    width: 198px;
+    float: right;
+    border-top: 1px solid #993d00;
+    border-right: 1px solid #993d00;
+    border-left: 1px solid #993d00;
+}
+
+.box { border-bottom: 1px solid #993d00; position: relative; float:right; right: 0; width: 198px; height: 104px; background-color: #f2f2f2; }
+
+
+
+
+
+.user {
+	width: 95%; 
+	border-radius: 4px;  
+}
+
+.pwd {
+    width: 95%;
+    border-radius: 4px;
+}
+
+.login {
+	background-color: #ff944d;
+    border: none;
+    color: white;
+    width: 43%;
+    margin: 2px 10px 2px 2px;
+    padding: 3px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+.register {
+	background-color: #ff944d;
+    border: none;
+    color: white;
+    width: 43%;
+    margin: 2px 2px 2px 8px;
+    padding: 3px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1365px) {
+	#browser { max-width: 1024px; }
+
+	#adleft { display: none; }
+
+	#adright { display: none; }
+}
+
+
+
+
+
+
+
+
+	
